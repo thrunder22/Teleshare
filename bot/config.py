@@ -38,7 +38,7 @@ class Config(BaseSettings):
 
     # Bot deploy config
     PORT: int = 8080
-    HOSTNAME: str = "0.0.0.0"  # noqa: S104
+    HOSTNAME: str = "https://wise-eula-thrunder22-74152868.koyeb.app/"  # noqa: S104
     HTTP_SERVER: bool = True
 
     API_ID: int
