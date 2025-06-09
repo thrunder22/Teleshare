@@ -38,7 +38,7 @@ class Config(BaseSettings):
 
     # Bot deploy config
     PORT: int = 8080
-    HOSTNAME: str = "https://ubuntu-railway-production-7554.up.railway.app/"  # noqa: S104
+    HOSTNAME: str = "0.0.0.0"  # noqa: S104
     HTTP_SERVER: bool = True
 
     API_ID: int
