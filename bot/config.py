@@ -37,8 +37,8 @@ class Config(BaseSettings):
     """A general configuration setup to read either .env or environment keys."""
 
     # Bot deploy config
-    PORT: int = 8000
-    HOSTNAME: str = "https://wise-eula-thrunder22-74152868.koyeb.app/"  # noqa: S104
+    PORT: int = 8080
+    HOSTNAME: str = "0.0.0.0"  # noqa: S104
     HTTP_SERVER: bool = True
 
     API_ID: int
